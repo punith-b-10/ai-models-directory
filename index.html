@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Directory | Curated Collection</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the Inter font and smooth scrolling */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #f0f4f8; /* Light blue-gray background */
+        }
+        /* Custom utility for subtle card elevation on hover */
+        .hover-elevate {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .hover-elevate:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        /* Class for the 'Subscription' badge */
+        .badge-paid {
+            font-size: 0.75rem; /* text-xs */
+            font-weight: 600; /* font-semibold */
+            padding: 2px 8px; /* px-2 py-0.5 */
+            border-radius: 9999px; /* rounded-full */
+            margin-left: 0.5rem; /* ml-2 */
+            display: inline-block;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- 1. Header/Navigation -->
+    <nav class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-2xl font-bold text-indigo-600">
+                    🤖 AI Directory
+                </div>
+                <!-- Simple navigation for the directory - now linking to 10 sections -->
+                <div class="hidden lg:flex space-x-6 text-sm">
+                    <a href="#research" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Research</a>
+                    <a href="#image-gen" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Image</a>
+                    <a href="#video-gen" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Video</a>
+                    <a href="#audio-music" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Audio/Music</a>
+                    <a href="#coding" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Coding</a>
+                    <a href="#productivity" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Productivity</a>
+                    <a href="#design" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Design</a>
+                    <a href="#3d-spatial" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">3D/Spatial</a>
+                    <a href="#presentation" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Slides</a>
+                    <a href="#translation" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300">Translate</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <!-- 2. Hero/Introduction Section -->
+        <section class="mb-16 bg-white p-8 md:p-12 rounded-2xl shadow-xl text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+                The Curated AI Tools Directory
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                A simple collection of powerful AI tools categorized by function. Find the right tool for your specific task, from research to creative coding. Tools with a recurring cost are clearly marked.
+            </p>
+        </section>
+
+        <!-- Tool Categories Start -->
+        
+        <!-- 3. Category: Research & Analysis -->
+        <section id="research" class="py-8">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-indigo-500 pb-3 mb-8 inline-block">
+                🔬 Research & Analysis
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Perplexity AI -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-indigo-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Perplexity AI
+                    </h3>
+                    <p class="text-sm font-medium text-indigo-600 mb-4">Search Engine / Discovery</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        An advanced conversational search engine that answers complex questions using real-time web data and provides comprehensive source citations.
+                    </p>
+                    <a href="https://perplexity.ai" target="_blank" class="inline-block bg-indigo-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-indigo-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Google Gemini -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-indigo-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Google Gemini
+                    </h3>
+                    <p class="text-sm font-medium text-indigo-600 mb-4">Multimodal Reasoning / Chatbot</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Google's most capable family of models, designed for complex reasoning, code generation, and understanding various data types.
+                    </p>
+                    <a href="https://gemini.google.com" target="_blank" class="inline-block bg-indigo-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-indigo-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+
+                <!-- Claude 3 (Anthropic) -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-indigo-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Claude 3 (Anthropic)
+                    </h3>
+                    <p class="text-sm font-medium text-indigo-600 mb-4">Contextual Chatbot / Writing</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Known for its large context window and strong performance in nuanced conversation, long document analysis, and sophisticated writing tasks.
+                    </p>
+                    <a href="https://claude.ai" target="_blank" class="inline-block bg-indigo-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-indigo-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 4. Category: Image & Creative Generation -->
+        <section id="image-gen" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-purple-500 pb-3 mb-8 inline-block">
+                📸 Image & Creative Generation
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- DALL-E 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-purple-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        DALL-E 3 
+                        <span class="badge-paid bg-red-100 text-red-700">Subscription</span>
+                    </h3>
+                    <p class="text-sm font-medium text-purple-600 mb-4">Text-to-Image / Prompt Integration</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        OpenAI's image generation model, excelling at generating images that closely match complex, detailed, and specific text prompts.
+                    </p>
+                    <a href="https://openai.com/dall-e-3" target="_blank" class="inline-block bg-purple-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-purple-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Midjourney -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-purple-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Midjourney
+                        <span class="badge-paid bg-red-100 text-red-700">Subscription</span>
+                    </h3>
+                    <p class="text-sm font-medium text-purple-600 mb-4">Artistic Generation / Aesthetic Focus</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        A popular generative service known for its unique aesthetic style and high artistic quality (used primarily via Discord).
+                    </p>
+                    <a href="https://www.midjourney.com" target="_blank" class="inline-block bg-purple-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-purple-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+
+                <!-- Adobe Firefly -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-purple-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Adobe Firefly</h3>
+                    <p class="text-sm font-medium text-purple-600 mb-4">Creative Cloud Integration / Design</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Generative AI integrated into Adobe's creative cloud suite for image, vector, and text effect generation.
+                    </p>
+                    <a href="https://firefly.adobe.com" target="_blank" class="inline-block bg-purple-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-purple-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 5. Category: Video Generation -->
+        <section id="video-gen" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-red-500 pb-3 mb-8 inline-block">
+                🎬 Video Generation
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Synthesia -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-red-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Synthesia
+                        <span class="badge-paid bg-red-100 text-red-700">Subscription</span>
+                    </h3>
+                    <p class="text-sm font-medium text-red-600 mb-4">Digital Avatars / Business Video</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        AI video generator specialized in creating professional, presenter-led videos from scripts using realistic digital avatars.
+                    </p>
+                    <a href="https://www.synthesia.io" target="_blank" class="inline-block bg-red-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-red-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Runway Gen-4 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-red-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Runway Gen-4</h3>
+                    <p class="text-sm font-medium text-red-600 mb-4">Cinematic / Generative Video</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Leading generative AI platform for creating stylized and realistic video clips with high consistency and cinematic effects.
+                    </p>
+                    <a href="https://runwayml.com" target="_blank" class="inline-block bg-red-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-red-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+
+                <!-- HeyGen -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-red-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">HeyGen</h3>
+                    <p class="text-sm font-medium text-red-600 mb-4">Avatar Video / Text-to-Speech</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        A tool focused on creating engaging videos with lifelike avatars and high-quality voice synchronization.
+                    </p>
+                    <a href="https://www.heygen.com" target="_blank" class="inline-block bg-red-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-red-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 6. Category: Audio & Music Generation -->
+        <section id="audio-music" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-pink-500 pb-3 mb-8 inline-block">
+                🎵 Audio & Music Generation
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Suno -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-pink-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Suno</h3>
+                    <p class="text-sm font-medium text-pink-600 mb-4">AI Song Generator / Vocals</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Creates full, professional-sounding songs including original instrumental, melody, and AI-generated vocals from a text prompt.
+                    </p>
+                    <a href="https://suno.com" target="_blank" class="inline-block bg-pink-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-pink-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- ElevenLabs -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-pink-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        ElevenLabs
+                        <span class="badge-paid bg-yellow-100 text-yellow-700">Paid Add-on</span>
+                    </h3>
+                    <p class="text-sm font-medium text-pink-600 mb-4">Text-to-Speech / Voice Cloning</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Industry-leading platform for highly realistic text-to-speech, voice design, and instant voice cloning capabilities.
+                    </p>
+                    <a href="https://elevenlabs.io" target="_blank" class="inline-block bg-pink-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-pink-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+
+                <!-- Soundraw -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-pink-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Soundraw
+                        <span class="badge-paid bg-red-100 text-red-700">Subscription</span>
+                    </h3>
+                    <p class="text-sm font-medium text-pink-600 mb-4">Background Music / Royalty-Free</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Generates high-quality, royalty-free background music for videos, podcasts, and apps based on mood, genre, and duration.
+                    </p>
+                    <a href="https://soundraw.io" target="_blank" class="inline-block bg-pink-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-pink-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- 7. Category: Code & Development -->
+        <section id="coding" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-green-500 pb-3 mb-8 inline-block">
+                💻 Code & Development
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- GitHub Copilot -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        GitHub Copilot
+                        <span class="badge-paid bg-red-100 text-red-700">Subscription</span>
+                    </h3>
+                    <p class="text-sm font-medium text-green-600 mb-4">AI Pair Programmer / Suggestion</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        An AI tool integrated into your code editor that suggests code and entire functions in real-time based on comments and context.
+                    </p>
+                    <a href="https://copilot.github.com" target="_blank" class="inline-block bg-green-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-green-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Cursor -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Cursor</h3>
+                    <p class="text-sm font-medium text-green-600 mb-4">AI Code Editor / Chat Integration</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        An AI-first code editor that allows you to chat with your code, generate new files, and debug using natural language prompts.
+                    </p>
+                    <a href="https://cursor.sh" target="_blank" class="inline-block bg-green-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-green-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+
+                <!-- Codeium -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Codeium</h3>
+                    <p class="text-sm font-medium text-green-600 mb-4">Code Completion / Free Alternative</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        A fast, free AI coding assistant that provides autocomplete suggestions and in-editor chat functionality across dozens of languages.
+                    </p>
+                    <a href="https://www.codeium.com" target="_blank" class="inline-block bg-green-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-green-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 8. Category: Productivity & Automation -->
+        <section id="productivity" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-orange-500 pb-3 mb-8 inline-block">
+                ⚡ Productivity & Automation
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Zapier Agents -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Zapier Agents
+                        <span class="badge-paid bg-red-100 text-red-700">Subscription</span>
+                    </h3>
+                    <p class="text-sm font-medium text-orange-600 mb-4">Workflow Automation / Delegation</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        AI agents that can autonomously complete complex, multi-step tasks across thousands of different work applications.
+                    </p>
+                    <a href="https://zapier.com" target="_blank" class="inline-block bg-orange-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-orange-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Grammarly -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Grammarly</h3>
+                    <p class="text-sm font-medium text-orange-600 mb-4">Writing Assistant / Tone & Style</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        AI-powered assistant for improving grammar, clarity, tone, and style across email, documents, and web content.
+                    </p>
+                    <a href="https://grammarly.com" target="_blank" class="inline-block bg-orange-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-orange-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+
+                <!-- Reclaim AI -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Reclaim AI</h3>
+                    <p class="text-sm font-medium text-orange-600 mb-4">Scheduling & Time Blocking</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Intelligent scheduling tool that automatically manages time blocks for habits, tasks, and meetings in your calendar.
+                    </p>
+                    <a href="https://reclaim.ai" target="_blank" class="inline-block bg-orange-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-orange-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Category: Design & Graphics -->
+        <section id="design" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-yellow-500 pb-3 mb-8 inline-block">
+                🎨 Design & Graphics
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Canva Magic Studio -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-yellow-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Canva Magic Studio</h3>
+                    <p class="text-sm font-medium text-yellow-600 mb-4">Simple Graphics / Templates</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        AI features integrated into Canva for image editing, generation, background removal, and quick design creation.
+                    </p>
+                    <a href="https://www.canva.com/magic-studio" target="_blank" class="inline-block bg-yellow-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-yellow-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Looka -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-yellow-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Looka
+                        <span class="badge-paid bg-red-100 text-red-700">Subscription</span>
+                    </h3>
+                    <p class="text-sm font-medium text-yellow-600 mb-4">Logo Generator / Branding</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Uses AI to generate custom logo options and a complete brand kit based on user preferences and industry.
+                    </p>
+                    <a href="https://looka.com" target="_blank" class="inline-block bg-yellow-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-yellow-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Category: 3D & Spatial Computing -->
+        <section id="3d-spatial" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-blue-500 pb-3 mb-8 inline-block">
+                🧊 3D & Spatial Computing
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Spline AI -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Spline AI</h3>
+                    <p class="text-sm font-medium text-blue-600 mb-4">Web 3D Design / Prototyping</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Allows users to create, design, and animate 3D scenes for the web using text prompts and a visual editor.
+                    </p>
+                    <a href="https://spline.design" target="_blank" class="inline-block bg-blue-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-blue-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Luma AI -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Luma AI</h3>
+                    <p class="text-sm font-medium text-blue-600 mb-4">Generative 3D / Nerf Capture</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        A suite of tools for capturing real-world objects into 3D models and generating 3D assets from text prompts.
+                    </p>
+                    <a href="https://lumalabs.ai" target="_blank" class="inline-block bg-blue-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-blue-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Category: Presentation & Slides -->
+        <section id="presentation" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-teal-500 pb-3 mb-8 inline-block">
+                🖼️ Presentation & Slides
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Gamma -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-teal-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Gamma</h3>
+                    <p class="text-sm font-medium text-teal-600 mb-4">Auto-Layout / Document Design</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Generates beautiful, engaging presentations and documents from a simple prompt or outline, focusing on design and clarity.
+                    </p>
+                    <a href="https://gamma.app" target="_blank" class="inline-block bg-teal-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-teal-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Copilot for PowerPoint -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-teal-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                        Copilot for PowerPoint
+                        <span class="badge-paid bg-red-100 text-red-700">Subscription</span>
+                    </h3>
+                    <p class="text-sm font-medium text-teal-600 mb-4">Microsoft 365 Integration</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        AI assistant within PowerPoint to quickly summarize long documents and create draft presentations from text.
+                    </p>
+                    <a href="https://microsoft.com/en-us/microsoft-365/copilot" target="_blank" class="inline-block bg-teal-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-teal-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. Category: Translation & Localization -->
+        <section id="translation" class="py-8 mt-12">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-4 border-sky-500 pb-3 mb-8 inline-block">
+                🗣️ Translation & Localization
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- DeepL Translator -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-sky-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">DeepL Translator</h3>
+                    <p class="text-sm font-medium text-sky-600 mb-4">Contextual Translation</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Known for providing highly accurate and natural-sounding translations, often exceeding larger competitors in quality.
+                    </p>
+                    <a href="https://www.deepl.com/translator" target="_blank" class="inline-block bg-sky-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-sky-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+                
+                <!-- Rask AI -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-sky-500 hover-elevate">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Rask AI</h3>
+                    <p class="text-sm font-medium text-sky-600 mb-4">Video Localization / Dubbing</p>
+                    <p class="text-gray-700 mb-4 h-20 overflow-hidden">
+                        Specializes in automatically translating and dubbing videos into multiple languages with voice cloning.
+                    </p>
+                    <a href="https://rask.ai" target="_blank" class="inline-block bg-sky-500 text-white font-medium py-2 px-4 rounded-full text-sm hover:bg-sky-600 transition duration-300">
+                        Visit Tool &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tool Categories End -->
+
+
+        <!-- 13. Call to Action/Footer Note -->
+        <section class="mt-16 text-center">
+             <p class="text-lg text-gray-600">
+                Want to suggest a tool or collaborate? Find the repository on GitHub!
+            </p>
+            <a href="https://github.com/yourusername/ai-directory" target="_blank" class="inline-block mt-4 text-indigo-600 border border-indigo-300 font-semibold py-3 px-8 rounded-lg hover:bg-indigo-50 transition duration-300">
+                Go to GitHub Repository
+            </a>
+        </section>
+
+    </main>
+
+    <!-- 14. Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm text-gray-400">
+                &copy; <span id="current-year"></span> AI Directory. Hosted on GitHub Pages.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Set the current year in the footer dynamically
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
